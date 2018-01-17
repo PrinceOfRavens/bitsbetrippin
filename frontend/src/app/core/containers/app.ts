@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
     template: `
         <bbt-fullscreen>
             <bbt-header></bbt-header>
+
+            <router-outlet></router-outlet>
         </bbt-fullscreen>
     `
 })

@@ -15,7 +15,7 @@ import { AppComponent } from './core/containers/app';
 import { FullscreenComponent } from './core/components/fullscreen';
 import { HeaderComponent } from './core/components/header';
 
-import { MatSidenavModule, MatToolbarModule } from '@angular/material';
+import { MatSidenavModule, MatToolbarModule, MatButtonModule } from '@angular/material';
 
 
 
@@ -27,11 +27,12 @@ import { MatSidenavModule, MatToolbarModule } from '@angular/material';
         HttpClientModule,
         MatSidenavModule,
         MatToolbarModule,
-        //RouterModule.forRoot(routes, { useHash: true }),
+        MatButtonModule,
+        // RouterModule.forRoot(routes, { useHash: true }),
 
-        //StoreModule.forRoot(reducers, { metaReducers }),
-        //StoreRouterConnectingModule,
-        //EffectsModule.forRoot([]),
+        // StoreModule.forRoot(reducers, { metaReducers }),
+        // StoreRouterConnectingModule,
+        // EffectsModule.forRoot([]),
         // DBModule.provideDB(schema),
     ],
     declarations: [
