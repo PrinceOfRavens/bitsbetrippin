@@ -3,11 +3,8 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'bbt-root',
     template: `
-        <bbt-fullscreen>
-            <bbt-header></bbt-header>
-
-            <router-outlet></router-outlet>
-        </bbt-fullscreen>
+        <h3>Hello World</h3>
+        <youtube-video></youtube-video>
     `
 })
 export class AppComponent {}
